@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grocery Tracker</title>
+  </head>
+  <body>
+    <form id="groceryForm" onsubmit="return false;">
+      <div>
+        <label for="grocery1">Enter first grocery amount:</label>
+        <input type="text" id="grocery1" />
+      </div>
+      <div>
+        <label for="grocery2">Enter second grocery amount:</label>
+        <input type="text" id="grocery2" />
+      </div>
+      <div>
+        <label for="grocery3">Enter third grocery amount:</label>
+        <input type="text" id="grocery3" />
+      </div>
+      <div style="margin-top:8px;">
+        <button id="calcBtn" type="button">Calculate Total Amount</button>
+      </div>
+    </form>
+
+    <p id="result">The total amount is : $ 0.00</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
